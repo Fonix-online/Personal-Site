@@ -1,0 +1,12 @@
+body{
+    background: url('https://fonix.online/img/header.jpg');
+
+    color: #ffffff;
+    background-color: #ffffff;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 0 auto;
+}
