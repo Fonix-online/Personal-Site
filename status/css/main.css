@@ -77,7 +77,7 @@ body {
 }
 .hero nav-bar ul li.active a,
 .hero nav-bar ul li a:hover {
-  color: #333
+  color: #37F
 }
 .hero nav-bar ul li {
   margin-left: 20px;
@@ -199,20 +199,20 @@ body {
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #F05F40;
+  color: #3388ff;
   text-align: center;
   background-color:#333;
-  border-left: solid #F05F40;
-  border-right: solid #F05F40;
-  border-top: solid #F05F40;
+  border-left: solid #3388ff;
+  border-right: solid #3388ff;
+  border-top: solid #3388ff;
 }
 .plugin .no-padding {
   padding: 0px;
   background-color: #333;
   color: #fff;
-  border-left: solid #F05F40;
-  border-right: solid #F05F40;
-  border-bottom: solid #F05F40;
+  border-left: solid #3388ff;
+  border-right: solid #3388ff;
+  border-bottom: solid #3388ff;
 }
 .plugin-body {
   height: 400px;
@@ -221,9 +221,9 @@ body {
   line-height: 30px;
   overflow: auto;
   background-color: #333;
-  border-left: solid #F05F40;
-  border-right: solid #F05F40;
-  border-bottom: solid #F05F40;
+  border-left: solid #3388ff;
+  border-right: solid #3388ff;
+  border-bottom: solid #3388ff;
 }
 .plugin last-update{
   font-size: 11px;
@@ -234,7 +234,7 @@ no-data {
   font-style: italic;
 }
 refresh-btn button {
-  background-color: #F05F40;
+  background-color: #3388ff;
   border: 0;
   float: right;
   font-size: 15px;
@@ -253,7 +253,7 @@ refresh-btn button {
   box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 6px rgba(0,0,0,.5);
 }
 refresh-btn button:hover {
-  background-color: ##F05F40;
+  background-color: ##3388ff;
   color: black;
 }
 refresh-btn button:active {
@@ -270,7 +270,7 @@ refresh-btn button:active {
 }
 
 .spinner > div {
-  background-color: #F05F40;
+  background-color: #3388ff;
   height: 100%;
   width: 6px;
   display: inline-block;
@@ -346,7 +346,7 @@ table td {
 }
 table tbody tr:hover td
 {
-  background-color: ##F05F40;
+  background-color: ##3388ff;
 }
 table.metrics-table {
   text-align: center;
@@ -355,7 +355,7 @@ canvas {
   float: none;
   margin: 0 auto;
   max-width: 100%;
-  border:solid 2px #F05F40;
+  border:solid 2px #3388ff;
 }
 /*********************************************
     Widget Elements
@@ -370,7 +370,7 @@ canvas {
   white-space: nowrap;
 }
 .progress-bar > div {
-  background-color: #F05F40;
+  background-color: #3388ff;
   width: 0%;
   height: 5px;
   border-radius: 5px;
@@ -403,7 +403,7 @@ canvas {
 }
 .table-data-plugin .column-sort-caret {
   font-size: 10px;
-  color: #F05F40;
+  color: #3388ff;
 }
 /*
  * Popover
@@ -418,7 +418,7 @@ canvas {
 }
 .qs .popover {
   text-transform: none;
-  background-color: #F05F40;
+  background-color: #3388ff;
   border-radius: 5px;
   bottom: 42px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);

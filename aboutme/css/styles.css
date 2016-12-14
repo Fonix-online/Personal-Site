@@ -1,5 +1,7 @@
 
-        /* Font from https://fontlibrary.org/en/font/archivo-narrow */
+/* <!-- ▒█▀▀▀ ▒█▀▀▀█ ▒█▄░▒█ ▀█▀ ▀▄▒▄▀ -->
+   <!-- ▒█▀▀▀ ▒█░░▒█ ▒█▒█▒█ ▒█░ ░▒█░░ -->
+   <!-- ▒█░░░ ▒█▄▄▄█ ▒█░░▀█ ▄█▄ ▄▀▒▀▄ --> */
         @font-face {
             font-family: 'mononokiRegular';
             src: url('../assets/mononokiRegular.ttf') format('truetype');
@@ -11,16 +13,18 @@
 }
         
         body {
-            font-weight: normal; 
-            font-style: normal;
-            font-family: sans-serif;
-            font-size: 0.9em;
-            letter-spacing: 0.1em;
-            line-height: 1.5;
-            padding-top: 0 !important;
-            min-height: 1200px !important;
-            color: white;
-            background-image: url('https://fonix.online/img/header.jpg'); 
+    font-weight: normal;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    padding-top: 0 !important;
+    min-height: 1200px !important;
+    color: white;
+    background-image: url(https://fonix.online/img/header.jpg);
+    background-repeat: no-repeat;
+    background-color: #333!important;
         }
         
         div.big-image {
@@ -85,7 +89,7 @@
         }
         }.silex-id-1466003398090-60 {
             width: 351px; 
-            top: 215px; 
+            top: 180px; 
             left: 23px; 
             box-sizing: content-box; 
             border-top-color: rgb(0, 0, 0); 
@@ -320,9 +324,26 @@
             background-color: transparent; 
         }
         .silex-id-1466007614212-100 {
-            min-height: 28px; 
-            width: 250px; 
-            top: 3px; 
-            left: 80px; 
+min-height: 28px;
+    width: 250px;
+    top: 350px;
+    left: 80px;
         }
+    .img {
+    color: #333333;
+    text-decoration: none;
+    -o-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -khtml-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    }
+
+    .img:hover {
+    color: #b50000;
+    text-decoration: underline;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    }
     
