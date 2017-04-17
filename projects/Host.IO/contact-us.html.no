@@ -1,0 +1,146 @@
+<!--  ▒█░░▒█ ▒█░▒█ 　 █▀█ █▀▀█ ▄█░ ▀▀▀█  -->
+<!--  ▒█▒█▒█ ▒█▀▀█ 　 ░▄▀ █▄▀█ ░█░ ░░█░  -->
+<!--  ▒█▄▀▄█ ▒█░▒█ 　 █▄▄ █▄▄█ ▄█▄ ░▐▌░  -->
+<!DOCTYPE html>
+<html class="no-js">
+	<!-- HEAD -->
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge" http-equiv="X-UA-Compatible">
+		<title>
+			HOST.IO - Contact
+		</title>
+    <meta name="description" content="Website design for all!">
+    <meta name="keywords" content="HTML,HostIO,IO,Designers,websites,servers,css,js,responsive">
+    <meta name="author" content="William Hardcastle">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+
+    <!-- CSS -->
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/ionicons.min.css" rel="stylesheet">
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+    <link href="css/pace.css" rel="stylesheet">
+		<link href="css/hover.css" rel="stylesheet">
+
+    <!-- Js -->
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/min/waypoints.min.js"></script>
+		<script src="js/jquery.counterup.js"></script>
+		<script src="js/main.js"></script>
+    <script src="js/pace.js"></script>
+
+	</head>
+	<body>
+		<header>
+			<div class="animated fadeIn container">
+				<div class="row">
+					<div class="col-md-12">
+						<nav class="navbar navbar-default">
+							<div class="container-fluid">
+								<div class="navbar-header">
+									<button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1"
+									data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span> <span class="icon-bar"></span> <span class=
+									"icon-bar"></span></button> <a class="navbar-brand" href="index.html"><img alt="Logo" src=
+									"img/logo.png"></a>
+								</div>
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav navbar-right">
+										<li>
+											<a href="index.html" class=hvr-underline-from-center>Home</a>
+										</li>
+										<li>
+											<a href="about-us.html" class=hvr-underline-from-center>About-Us</a>
+										</li>
+										<li>
+											<a href="our-work.html" class=hvr-underline-from-center>Our-Work</a>
+										</li>
+										<li>
+											<a href="contact-us.html" class=hvr-underline-from-center>Contact-Us</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="intro">
+			<div class="container">
+							<div class="animated fadeIn section-title">
+								<h2>
+									Contact Us!
+								</h2>
+								<p>
+									Please don’t be afraid to send us a message! We will get back to you as soon as we can, please provide a working email address that you have access to. Make sure to specify what your question is about, this will help us get your email to the right department!
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5 col-sm-12">
+						</div>
+			</div>
+		</section>
+		<section id="service">
+		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+			<div class="row">
+				<label for="name" class=".section-title h2">Your name:</label><br />
+				<input id="name" class="input" name="name" type="text" value="" size="30" placeholder="John Smith"/><br />
+			</div>
+			<div class="row">
+				<label for="email" class=".section-title h2">Your email:</label><br />
+				<input id="email" class="input" name="email" type="text" value="" size="30" placeholder="SuperEmail@mailbox.com" /><br />
+			</div>
+			<div class="row">
+				<label for="message" class=".section-title h2">Your message:</label><br />
+				<textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Your Message Goes Here...."></textarea><br />
+			</div>
+			<div>
+				<p></p>
+			<input id="submit_button" type="submit" value="Send email" class="hvr-underline-from-center button" />
+			</div>
+		</form>
+</form>
+</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="footer-manu">
+							<ul>
+								<li>
+									<a href="index.html" class=hvr-underline-from-center>Home</a>
+								</li>
+								<li>
+									<a href="about-us.html" class=hvr-underline-from-center>About-Us</a>
+								</li>
+								<li>
+									<a href="our-work.html" class=hvr-underline-from-center>Our-Work</a>
+								</li>
+								<li>
+									<a href="contact-us.html" class=hvr-underline-from-center>Contact-Us</a>
+								</li>
+							</ul>
+						</div>
+						<p>
+							Copyright &copy; HOST.IO Crafted by <a href="https://fonix.online">William Hardcastle</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+<!--  ▒█░░▒█ ▒█░▒█ 　 █▀█ █▀▀█ ▄█░ ▀▀▀█  -->
+<!--  ▒█▒█▒█ ▒█▀▀█ 　 ░▄▀ █▄▀█ ░█░ ░░█░  -->
+<!--  ▒█▄▀▄█ ▒█░▒█ 　 █▄▄ █▄▄█ ▄█▄ ░▐▌░  -->
