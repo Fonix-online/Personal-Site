@@ -15769,7 +15769,7 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
       h = a(window).innerHeight(),
       i = PIXI.autoDetectRenderer(g, h);
     f.append(i.view);
-    for (var j = new PIXI.Container, k = ["https://fonix.online/wp-content/themes/fonix/img/bgNoise_01.jpg", "https://fonix.online/wp-content/themes/fonix/img/bgNoise_02.jpg", "https://fonix.online/wp-content/themes/fonix/img/bgNoise_03.jpg"], l = [], m = 0; m < 3; m++) {
+    for (var j = new PIXI.Container, k = ["https://fonix.online/assets/themes/fonix/img/bgNoise_01.jpg", "https://fonix.online/assets/themes/fonix/img/bgNoise_02.jpg", "https://fonix.online/assets/themes/fonix/img/bgNoise_03.jpg"], l = [], m = 0; m < 3; m++) {
       var n = PIXI.Texture.fromImage(k[m]);
       l.push(n)
     }
