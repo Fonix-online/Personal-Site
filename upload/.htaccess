@@ -1,4 +1,0 @@
-AuthUserFile /srv/.htpasswd
-AuthName "Please Login To The Neobyte Repo"
-AuthType Basic
-require valid-user
